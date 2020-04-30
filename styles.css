@@ -1,5 +1,7 @@
+/* Update styling of bootstrap jumbotron with some customization */
 .jumbotron {
   background-image: url("images/laptop.jpg");
+  /* Make sure the image covers the background without stretching weird */
   background-size: cover;
   text-shadow: 0 0 8px black;
 }
