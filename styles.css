@@ -4,4 +4,27 @@
   /* Make sure the image covers the background without stretching weird */
   background-size: cover;
   text-shadow: 0 0 8px black;
+  margin-bottom: 0;
+}
+
+/* Used for adjusting the margins for the title in jumbotron container */
+.jcontain {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Clear floats, used for extending boxes around items that are floated */
+.clearfloat {
+  clear: both;
+}
+
+/* Make sure the sections are of a decent height */
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Create a standard distance for button to be from content in section */
+.section a {
+  margin-top: 30px;
 }
